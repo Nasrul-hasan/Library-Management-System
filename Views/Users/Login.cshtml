@@ -1,0 +1,14 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+<h2>@ViewBag.status</h2>
+<div class="text-left">
+    
+    <form asp-action="Login" method="post">
+        <p>Login to your account</p>
+        <p>Email: <input type="text" name="email" /></p>
+        <p>Password: <input type="password" name="password" /></p>
+        <p><button type="submit">Login</button></p>
+    </form>
+</div>
+
